@@ -1,3 +1,4 @@
+import { Navbar } from './Navbar.jsx';
 
 export const Layout = ({ children }) => {
 
@@ -14,8 +15,8 @@ export const Layout = ({ children }) => {
     return (
         <div style={layoutStyle}>
 
-            <nav style={{ padding: '1rem', background: '#eee'}}>
-                Navbar Provisória
+            <nav style={{ padding: '0.5rem', background: '#eee'}}>
+                <Navbar />
             </nav>
 
             <main style={mainStyle}>
