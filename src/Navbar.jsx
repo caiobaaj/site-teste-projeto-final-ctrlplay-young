@@ -27,6 +27,7 @@ export function Navbar() {
                         <NavLink to="/about-us" style={navItemsStyle}>About Us</NavLink>
                         <NavLink to="/projects" style={navItemsStyle}>Projects</NavLink>
                         <NavLink to="/buy-things" style={navItemsStyle}>Buy Things</NavLink>  
+                        <NavLink to="/aaa" style={navItemsStyle}>aaa</NavLink>  
                     </div>
                 </nav>
             </BrowserRouter>
